@@ -55,7 +55,7 @@ def predict_and_detect(chosen_model, img, classes=[], conf=0.5):
     return img_copy, results
 
 # Load the trained YOLOv8 model
-model = YOLO('/Users/ayanatorgoeva/Desktop/ai/best.pt')  # Replace with the path to your best model
+model = YOLO('best.pt')  # Replace with the path to your best model
 
 # Title of the Streamlit app
 st.title('Where\'s Waldo - Object Detection')
